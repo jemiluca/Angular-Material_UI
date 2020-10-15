@@ -1,3 +1,5 @@
 export const environment = {
-  production: true
+  production: true,
+  server: 'https://jsonplaceholder.typicode.com',
+  UsersEndPint: '/users'
 };

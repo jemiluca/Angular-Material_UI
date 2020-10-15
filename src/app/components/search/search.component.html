@@ -1,1 +1,7 @@
-<p>search works!</p>
+
+<mat-form-field class="example-form-field">
+    <p>Search</p>
+    <p>Id</p>
+    <input matInput type="number" [(ngModel)]="id">
+    <button mat-raised-button color="primary"  (click)="onSearch()">Search</button>
+  </mat-form-field>
